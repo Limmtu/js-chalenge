@@ -3,9 +3,9 @@
 let message = "There is no war in Ba Sing Se";
 
 // Function to count words in a given string
-function countWords(inputString) {
+function countWords(String) {
     // Remove leading and trailing whitespaces
-    let trimmedString = inputString.trim();
+    let trimmedString = String.trim();
     
     // Split the string into an array of words
     let wordsArray = trimmedString.split(/\s+/);
@@ -17,7 +17,7 @@ function countWords(inputString) {
 // Call the function with the provided message
 let wordCount = countWords(message);
 
-// Display the result
+
 console.log(`The message contains ${wordCount} words.`);
 
 
@@ -46,7 +46,7 @@ console.log(`The message contains ${wordCount} words.`);
 
 
 
-    // chelenge three
+    // chalenge three
 // Generate a random number between 0 and 3 (exclusive)
 const randomizer = Math.floor(Math.random() * 3);
 
